@@ -39,6 +39,9 @@ Shavaluator.prototype.exec = function(name, keys, args, fn) {
         return fn(null, 1);
       });
     });
+  } else if (name === 'setnxex') {
+    // See scripts.js setnxex
+    console.log("mock not support setnxex")
   }
 };
 
