@@ -1,5 +1,5 @@
 {
-  "name": "xredislock",
+  "name": "redislock",
   "version": "1.3.0",
   "description": "Node distributed locking using redis",
   "keywords": [
